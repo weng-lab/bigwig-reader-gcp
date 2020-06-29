@@ -1,0 +1,35 @@
+{
+  "name": "bigwig-reader-gcp",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/weng-lab/bigwig-reader-gcp"
+  },
+  "keywords": [
+    "bigwig",
+    "bigbed",
+    "gcp"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.4",
+    "@types/pako": "^1.0.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "bigwig-reader": "^1.2.7",
+    "@google-cloud/storage": "^3.0.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  }
+}
